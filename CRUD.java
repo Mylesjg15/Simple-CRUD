@@ -9,34 +9,6 @@
     The program will store the data in an arraylist.
 */
 
-/*
-    Program requirements:
-    *************************** In Main Function **********************************************
-
-        - At program startup have a main menu stage that allows the user to choose one of the four options from CRUD
-            - Use a switch statement that is divided into options 1,2,3,4.
-            - Each case will output a statement on which CRUD operation you are running and will then call the method corresponding to that operation
-        - User can only input Strings
-
-    *************************** Outside Main Function *****************************************
-
-        - When user inputs new data or updates data is pushes it to the top of the list
-        - Have a method for CREATING the data list
-            - Have the user enter new strings by pressing enter
-            - Use a while loop to keep looping untill it enters "exit" to exit table creation phase
-        - Have a method for READING the data list
-            - The program will just output the entire arraylist
-        - Have a method for UPDATING the data list
-            - Push the new entry to the top of the list
-        - Have a method for DELETING the data list
-            - Use a for loop to parse through the list until whatever string matches the user's input, then remove() that entry
-
-    *************************** Future Project Add-Ons ****************************************
-        - User can input all data types
-        - Conditional statement where you must run option 1 at the main menu
-
-*/
-
 import java.util.Scanner;
 import java.util.ArrayList;
 
